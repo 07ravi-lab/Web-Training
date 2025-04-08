@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Blog Card</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #95ca32;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .blog-card {
+      background: #6fe677;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      max-width: 350px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .blog-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .blog-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .blog-content {
+      padding: 16px;
+    }
+
+    .blog-title {
+      font-size: 20px;
+      margin: 0 0 10px;
+    }
+
+    .blog-description {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .blog-author {
+      margin-top: 15px;
+      font-size: 13px;
+      color: #888;
+    }
+
+    .read-more {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 8px 12px;
+      background: #007bff;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .read-more:hover {
+      background: #0056b3;
+    }
+
+    @media (max-width: 400px) {
+      .blog-card {
+        margin: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="blog-card">
+    <img  src="https://res.cloudinary.com/dz209s6jk/image/upload/v1703155661/Challenges/uvzzhmmipmcaqzwtiapc.jpg" 
+    style="background-image:-moz-repeating-linear-gradient();"  alt="Blog Image">
+    <div class="blog-content">
+      <h2 class="blog-title">Blog Card</h2>
+      <p class="blog-description">
+        This blog post shows your Blog Card.
+      </p>
+      <p class="blog-author">By Ravi Raj • April 8, 2025</p>
+      <a href="#" class="read-more">Read More</a>
+    </div>
+  </div>
+
+</body>
+</html>
