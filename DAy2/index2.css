@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+    background-color: yellow;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+.box {
+   
+    width: 250px;
+    height: 250px;
+}
+
+.box-1,
+.box-3,
+.box-5 {
+    background-color: green;
+}
+
+.box-2,
+.box-4,
+.box-6 {
+    background-color: blue;
+}
+
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
